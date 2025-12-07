@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+body{
+    background-color: #5f5959;
+}
+
+main{
+    
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    font-variant: small-caps;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover{
+    text-decoration: underline #fff;
+}
+
+.primeira{
+    background-color: #fff;
+    height: auto;
+    
+}
+
+.primeira p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.4em;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+.segunda{
+   background: rgb(128, 115, 115) url('imagens/background001.jpg') right center no-repeat fixed;
+   background-size: cover;
+   box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.377);
+   height: auto;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-left: 30px;
+}
+
+.segunda p{
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    color: #fff;
+    font-family: "Passion One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.4em;
+    font-size: 20px;
+    max-width: 350px;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
+}
+
+.terceira{
+    background-color: #fff;
+    box-shadow: 2px 1px 20px 1px rgba(0, 0, 0, 0.342);
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.terceira p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.0em;
+    font-size: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+.quarta{
+    background: rgb(128, 115, 115) url('imagens/background002.jpg') right center fixed;
+    background-size: cover;
+    box-shadow: inset 5px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+.quarta p{
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    color: #fff;
+    font-family: "Passion One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.4em;
+    font-size: 20px;
+    max-width: 350px;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
+}
+
+.quinta{
+    background-color: #fff;
+    height: auto;
+}
+
+.quinta p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.4em;
+    font-size: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: underline #fff;
+}
